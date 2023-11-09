@@ -1,0 +1,187 @@
+/* Reset some default styles to ensure consistency */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and text styles to the whole page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8; /* Light gray background */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffaa33; /* Yellow on hover */
+}
+
+/* Style the hero section */
+#hero {
+    background-size: cover;
+    text-align: center;
+    padding: 5rem 0;
+    color: #fff;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.hero-content h2 {
+    font-size: 2.5rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin: 1.5rem 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ffaa33; /* Orange button */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #ff7700; /* Darker orange on hover */
+}
+
+/* Style the features section */
+#features {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.feature {
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+}
+
+.feature img {
+    max-width: 100%;
+    max-height: 200px;
+    margin-bottom: 1rem;
+}
+
+.feature:hover {
+    transform: scale(1.05);
+}
+
+/* Style the testimonials section */
+#testimonials {
+    background-color: #333;
+    color: #fff;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.testimonial {
+    background-color: #555;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 2rem;
+}
+
+.testimonial blockquote {
+    font-style: italic;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+.testimonial p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+/* Style the contact section */
+#contact {
+    background-color: #ffaa33;
+    color: #fff;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin: 15px 0;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.2rem;
+}
+
+form textarea {
+    resize: none; /* Disable textarea resizing */
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
